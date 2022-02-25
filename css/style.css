@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+html {
+  font-size: 100%;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+#header {
+  text-align: center;
+
+}
+
+.site-title{
+  font-size: 64px;
+  font-weight: bold;
+}
+.sub-title{
+  font-size: 32px;
+  margin-bottom: 80px;
+}
+.sec-title{
+  font-size: 64px;
+  font-weight: bold;
+  text-align: center;
+  margin: 80px;
+  
+}
+
+#menu ul{
+  display: flex;
+  justify-content: center;
+  
+}
+#menu li{
+  text-align: center;
+  font-size: 32px;
+  margin: 0 20px;
+  padding-bottom: 20px;
+}
+
+#mainvisual img{
+  width: 100%;
+  max-width: 1920px;
+  height: 400px;
+  object-fit: cover;
+  /* margin-bottom: 80px; */
+}
+  #house img{
+    width: 100%;
+    max-width: 1380px;
+    height: 500px;
+    object-fit: cover;
+  }
+  #house dl{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 70%;
+    margin: 30px 10px;
+  }
+  #house dt{
+    width: 50%;
+    border: 1px solid black;
+  }
+  #house dd {
+    width: 50%;
+    border: 1px solid black;
+  }
+  #inner ul{
+    display: flex;
+    justify-content: space-between;
+  }
+  #inner li{
+    width: 100%;
+     padding-right:10px;
+  }
+  #inner img{
+   
+    height:400px;
+  }  
+  .interior {
+    font-size: 52px;
+    text-align: center;
+    margin:40px;
+  }
+  #contact dd input, 
+  #contact dd textarea{
+    border: 1px solid blue;
+    width: 100%;
+
+  }
+  #contact dl{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  #contact dt{
+    width: 15%;
+    margin-bottom:10px;
+  }
+  #contact dd{
+    width: 85%;
+    margin-bottom: 20px;
+  }
+  #contact .button {
+    text-align: center;
+  }
+  #contact .button input{
+    width: 300px;
+    background-color: black;
+    color: white;
+    padding: 30px;
+  }
+
+
+  
