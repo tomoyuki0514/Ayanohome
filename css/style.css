@@ -12,6 +12,11 @@ li {
   list-style: none;
 }
 
+.wrapper {
+  text-align: center;
+  /* align-items: center; */
+  
+}
 #header {
   text-align: center;
 
@@ -47,23 +52,27 @@ li {
 
 #mainvisual img{
   width: 100%;
-  max-width: 1920px;
+  /* max-width: 1320px; */
+  
   height: 400px;
   object-fit: cover;
   /* margin-bottom: 80px; */
 }
   #house img{
     width: 100%;
-    max-width: 1380px;
-    height: 500px;
+    max-width: 1320px;
+    height: 800px;
     object-fit: cover;
+    
   }
   #house dl{
     display: flex;
     flex-wrap: wrap;
-    text-align: center;
-    width: 70%;
-    margin: 30px 10px;
+    margin: 0 auto;
+        
+    width: 30%;
+    padding-top: 20px;
+    
   }
   #house dt{
     width: 50%;
@@ -79,10 +88,13 @@ li {
   }
   #inner li{
     width: 100%;
-     padding-right:10px;
+     padding:10px;
   }
   #inner img{
-   
+    width: 100%;
+    max-width: 960px;
+    object-fit: cover;
+    margin: 0 auto;
     height:400px;
   }  
   .interior {
@@ -120,5 +132,58 @@ li {
     padding: 30px;
   }
 
+  @media screen and (max-width: 800px) {
 
+    .sec-title{
+      font-size: 48px;
+      font-weight: normal;
+    }
+    #menu li{
+      font-size: 24px;;
+    }
+    #house img{
+      width: 100%;
+      max-width: 800px;
+      height: 250px;
+      object-fit: cover;
+    }
+    #house dl{
+      display: flex;
+      flex-wrap: wrap;
+      text-align: center;
+      width: 70%;
+      margin: 30px 10px;
+    }
+
+  #inner ul{
+    flex-direction: column;
+    text-align: center;
+  }
+  #inner li{
+    width: 80%;
+     padding :10px;
+  }
+    
+  #inner img{
+    width: 100%;
+    /* max-width: 600px; */
+    object-fit: cover;
+    margin: 0 auto;
+    height:300px;
+  }  
+  
+
+  #contact dl{
+    flex-direction: column;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  #contact .button input{
+    width: 200px;
+    padding: 20px;
+  }
+
+  }
   
